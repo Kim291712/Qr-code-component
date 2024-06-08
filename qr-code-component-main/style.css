@@ -18,7 +18,7 @@ body {
     background: var(--Light_gray);
 }
 
-.box {
+#box {
     width: 320px;
     height: 497px;
     padding: 16px;
