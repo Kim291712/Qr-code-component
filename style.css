@@ -6,7 +6,7 @@
 }
 
 :root {
-     --Light_gray: hsl(212, 45%, 89%);
+    --Light_gray: hsl(212, 45%, 89%);
     --Grayish_blue: hsl(220, 15%, 55%);
     --Dark_blue: hsl(218, 44%, 22%);
 }
@@ -15,7 +15,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     min-height: 100vh;
     background: var(--Light_gray);
 
@@ -24,39 +23,38 @@ body {
 
 .box {
     max-width: 20rem;
-    padding: 1rem 1rem 1.5rem;
+    padding: 1rem;
     border-radius: 20px;
     background: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+
+    text-align: center;
 }
 
 /*img*/
 .box-img img {
     width: 100%;
     border-radius: 12px;
-    margin-bottom: 1.5rem;
 }
 
-/*typography*/
+/*content*/
 .box-text {
-    text-align: center;
+    padding: 1.2rem 0.8rem;
 }
 .box-text h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 
     color: var(--Dark_blue);
     font-size: 1.4rem;
     font-weight: bold;
 }
 .box-text p {
-    padding: 0 0.5rem;
-    margin-bottom: 1rem;
-
     color: var(--Grayish_blue);
     font-size: 1rem;
 }
 
 /*responsive*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30rem) {
 .box {
       margin-top: 2rem;
       width: 90%;
