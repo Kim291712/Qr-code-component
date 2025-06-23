@@ -54,9 +54,11 @@ body {
 }
 
 /*responsive*/
-@media screen and (max-width: 375px) {
+@media (max-width: 360px) {
 .box {
-      margin-top: 2rem;
       width: 90%;
     }
-  }
+.box-text h1 {
+    font-size: 1.2rem;
+}
+}
